@@ -16,9 +16,6 @@ camera.preview_window = (0, 0, 640, 480)
 counter = 0
 counter = str(counter)
 
-def wydrukujCoInnego():
-    print("co innego")
-
 def detectMotion(event):
     if GPIO.input(sensorPin):
         localtime = time.asctime(time.localtime(time.time()))
