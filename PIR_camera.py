@@ -16,8 +16,8 @@ camera.preview_window = (0, 0, 640, 480)
 counter = 0
 counter = str(counter)
 
-def napiszCos():
-    print("cos napisalem w nowej funkcji")
+def wydrukujCoInnego():
+    print("co innego")
 
 def detectMotion(event):
     if GPIO.input(sensorPin):
