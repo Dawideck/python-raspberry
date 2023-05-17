@@ -6,8 +6,8 @@ import os
 
 GPIO.setmode(GPIO.BCM)
 sensorPin = 21 #dla BOARD 40
+print("OTO MOJ COMMIT")
 
-GPIO.setup(sensorPin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 camera = PiCamera()
 camera.resolution = (640, 480)
